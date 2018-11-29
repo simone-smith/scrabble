@@ -13,4 +13,8 @@ class TileSpec extends FlatSpec with Matchers {
   "The letter K" should "be worth 5 points" in {
     assert(Tile('K').value == 5)
   }
+
+  "A letter not in the English alphabet" should "be worth 0 points" in {
+    assert(Tile('Æ').value == 0)
+  }
 }

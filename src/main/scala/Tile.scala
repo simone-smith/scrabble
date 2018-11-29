@@ -10,6 +10,7 @@ case class Tile(letter: Char) {
       case 'K' => 5
       case 'J'|'X' => 8
       case 'Q'|'Z' => 10
-      case _ => 0    }
+      case _ => 0
+    }
   }
 }
