@@ -1,5 +1,4 @@
 import org.scalatest._
-import scrabble.Tile
 
 class TileSpec extends FlatSpec with Matchers {
   "The letter A" should "be worth 1 point" in {

@@ -1,5 +1,3 @@
-package scrabble
-
 case class Tile(letter: Char) {
   def value: Int = {
     letter match {
