@@ -5,7 +5,7 @@ class GameSpec extends FlatSpec with Matchers {
     assert(Game.startGame.rack.length == 7)
   }
 
-  "A rack with the letters 'jkepils" should "return 'kelp'" in {
-    assert(Game.findValidWords("jkepils") == List("kelp"))
+  "A rack with the letters 'aaaaaah" should "return 'ah'" in {
+    assert(Game.findValidWords("aaaaaah") == List("aa", "ah", "ha", "aah", "aha"))
   }
 }
