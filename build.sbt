@@ -1,8 +1,8 @@
 ThisBuild / scalaVersion := "2.12.7"
-ThisBuild / organization := "com.example"
+ThisBuild / organization := "com.scrabble"
 
-lazy val hello = (project in file("."))
+lazy val scrabble = (project in file("."))
   .settings(
-    name := "Hello",
+    name := "Scrabble",
     libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test,
 )
