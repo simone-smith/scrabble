@@ -34,7 +34,7 @@ class Bag {
   def generateBag(): ListBuffer[Char] = {
     val list = new ListBuffer[Char]()
     contents.foreach(letter => {
-      for(i <- 1 to letter._2) {
+      for(_ <- 1 to letter._2) {
         list += letter._1
       }
     })

@@ -16,4 +16,12 @@ object Game extends App {
       .flatMap(_.permutations)
       .filter(validWords).toList
   }
+
+  // find the longest valid word
+
+  // check the score of each valid word and return the word with the highest score
+
+  // find the highest scoring word if any one of the letters can score triple
+
+  // multiplayer?
 }
